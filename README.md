@@ -10,3 +10,4 @@ Clone this repo and run the `install` executable.
 
 - Fish shell
 - Neovim
+- vim-plug
