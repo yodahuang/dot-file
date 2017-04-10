@@ -1,1 +1,1 @@
-/home/yanda/.local/share/omf/themes/default/fish_prompt.fish
+/home/yanda/.config/fisherman/bobthefish/fish_prompt.fish
