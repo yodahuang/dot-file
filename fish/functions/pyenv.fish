@@ -1,0 +1,1 @@
+/home/yanda/.config/fisherman/pyenv/functions/pyenv.fish

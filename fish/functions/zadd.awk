@@ -1,0 +1,1 @@
+/home/yanda/.config/fisherman/z/functions/zadd.awk

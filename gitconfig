@@ -4,5 +4,6 @@
 [alias]
 	co = checkout
 	st = status
+	peak = diff HEAD^ HEAD
 [push]
 	default = simple

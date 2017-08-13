@@ -1,0 +1,1 @@
+/home/yanda/.config/fisherman/thefuck/functions/fuck.fish
