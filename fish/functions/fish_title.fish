@@ -1,1 +1,0 @@
-/home/yanda/.config/fisherman/bobthefish/fish_title.fish
