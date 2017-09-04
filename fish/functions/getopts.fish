@@ -1,1 +1,0 @@
-/home/yanda/.config/fisherman/getopts/getopts.fish
