@@ -4,3 +4,6 @@
 [submodule "dotbot-eopkg"]
 	path = dotbot-eopkg
 	url = https://github.com/niklas-heer/dotbot-eopkg
+[submodule "dotbot_plugin_aptget"]
+	path = dotbot_plugin_aptget
+	url = https://github.com/dein0s/dotbot_plugin_aptget.git

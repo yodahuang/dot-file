@@ -12,12 +12,13 @@ Plug 'raimondi/delimitmate'
 Plug 'tpope/vim-fugitive'
 Plug 'itchyny/lightline.vim'
 Plug 'majutsushi/tagbar'
+Plug 'taketwo/vim-ros'
 call plug#end()
 
 "   Keyboard Mapping
 
 nmap <F8> :TagbarToggle<CR>
-nmap <F9> :NERDTree<CR>
+nmap <F9> :NERDTreeToggle<CR>
 
 let g:deoplete#enable_at_startup=1
 
@@ -57,3 +58,11 @@ let g:lightline = {
       \ 'separator': { 'left': '', 'right': '' },
       \ 'subseparator': { 'left': '', 'right': '' }
       \ }
+
+" NEDTREE setting
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" Python environment setting
+let g:python_host_prog='/home/yanda/.pyenv/versions/nvim2/bin/python'
+let g:python3_host_prog='/home/yanda/.pyenv/versions/nvim3/bin/python'
