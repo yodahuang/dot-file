@@ -13,6 +13,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'itchyny/lightline.vim'
 Plug 'majutsushi/tagbar'
 Plug 'taketwo/vim-ros'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 "   Keyboard Mapping
