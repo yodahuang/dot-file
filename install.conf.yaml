@@ -17,8 +17,9 @@
       force: true
     ~/.config/fish/config.fish:
       path: fish/config.fish
-    ~/.config/fish/conf.d/000-env.fish:
-      path: fish/conf.d/000-env.fish
+    ~/.config/fish/conf.d:
+      create: true
+      path: fish/conf.d
     ~/.config/nvim:
       path: nvim
 
@@ -30,7 +31,7 @@
   -
     command: ["curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash", Installing pyenv]
     stdout: true
-    strerr: truei
+    strerr: true
   - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
   - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
