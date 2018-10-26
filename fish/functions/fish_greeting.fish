@@ -1,3 +1,1 @@
-function fish_greeting
-    fortune | lolcat
-end
+/home/yanda/.config/fisherman/bobthefish/fish_greeting.fish

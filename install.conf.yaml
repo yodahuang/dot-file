@@ -22,6 +22,11 @@
       path: fish/conf.d
     ~/.config/nvim:
       path: nvim
+    ~/.byobu/.tmux.conf: byobu/tmux.conf
+    ~/.tmux.conf: byobu/tmux.conf
+    ~/.byobu/color.tmux: byobu/color.tmux
+    ~/.config/ibus/rime/luna_pinyin_simp.custom.yaml: rime/luna_pinyin_simp.custom.yaml
+
 
 - shell:
   - 

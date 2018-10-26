@@ -67,3 +67,9 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Python environment setting
 let g:python_host_prog='/home/yanda/.pyenv/versions/nvim2/bin/python'
 let g:python3_host_prog='/home/yanda/.pyenv/versions/nvim3/bin/python'
+
+" Windows splitting remap
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
